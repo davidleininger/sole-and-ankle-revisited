@@ -27,4 +27,7 @@ export const QUERIES = {
   'phone': `(min-width: ${BREAKPOINTS.phoneMin}rem)`,
   'tablet': `(min-width: ${BREAKPOINTS.tabletMin}rem)`,
   'laptop': `(min-width: ${BREAKPOINTS.laptoppMin}rem)`,
+  'phoneAndSmaller': `(max-width: ${BREAKPOINTS.phoneMin}rem)`,
+  'tabletAndSmaller': `(max-width: ${BREAKPOINTS.tabletMin}rem)`,
+  'smallerThanLaptop': `(max-width: ${BREAKPOINTS.laptoppMin}rem)`,
 }
